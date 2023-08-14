@@ -1,0 +1,154 @@
+.navbar1{
+    
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    
+
+}
+
+
+/* .logo{
+    
+    width: 100px;
+    height: 100px;
+} */
+
+@font-face {
+    font-family: 'cute';
+    src: url('./Better\ Spring.otf');
+}
+
+
+.logo{
+    color: white;
+    font-family: 'cute';
+    font-size: 50px !important;
+}
+
+
+.link_con span a{
+    margin: 0px 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.8s;
+}
+
+
+
+
+.link_con span a:hover{
+    background-color: black;
+}
+
+.bg_tran{
+    background: rgba(0, 0, 0, 0.5);
+   
+    /* background-color: #da7b93; */
+}
+
+.main-navigation a:hover{
+     color: #da7b93;
+}
+
+.who::before{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  
+  transform: translate(-60px,10px);
+  background-color: white;
+}
+
+
+.who::after{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  
+  transform: translate(10px,10px);
+  background-color: white;
+}
+
+
+.abouts{
+ width: 90% !important;
+ height: auto;
+}
+
+/* General Styling */
+
+  /* .container_scroll {
+    width: 100%;
+    height: 100vh;
+    background: url('https://th.bing.com/th/id/R.394e3fddc5e09c6dbc5eede8d334c588?rik=ZyJSXBWeSlr3AQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f_oFDQgW3nuwI%2fTUenVUDyEcI%2fAAAAAAAADL0%2f8v7lQuF8hv4%2fs1600%2fBig-rock-nature-computer-backgrounds.jpg&ehk=ZX%2fU2eMl9eI15W07XN6IYqLqw%2fGZbzJQEoVem2T%2fgxU%3d&risl=&pid=ImgRaw&r=0');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  
+  /* Mouse Styling */
+  .mouse {
+    display: block;
+    width: 28px;
+    height: 48px;
+    border-radius: 11px 11px 15px 15px;
+    border: 2px solid #fff;
+    /* background-color: rgba(255, 251, 251, 0.5); */
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    /* transform: translate(0px,-70px); */
+    margin-left: -13px;
+    z-index: 100;
+  }
+  
+  .mouse span {
+    display: block;
+    margin: 6px auto;
+    width: 3px;
+    height: 7px;
+    border-radius: 4px;
+    background: white;
+    border: 3px solid transparent;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+  }
+  
+  @keyframes scroll {
+    0% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+      }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+      transform: translateY(20px);
+      }
+  }
+
+
+@media screen and (max-width: 1200px) {
+    .link_con span a{
+        font-size: 15px;
+        margin: 0px 5px;
+    }
+}
