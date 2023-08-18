@@ -1,0 +1,9 @@
+.web{
+    font-size: 70px;
+color: #888e8d;
+background: linear-gradient(135deg, #041d3d, #fff, crimson);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+transition: color 0.3s ease;
+}
+

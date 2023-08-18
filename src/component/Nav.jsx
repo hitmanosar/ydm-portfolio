@@ -37,7 +37,7 @@ function Nav() {
 
       <div className={`container-fluid pc_view navbar1 fixed-top ${Nav ? 'bg_tran' : ''}`}>
         
-           <div className="link_con  p-3 d-flex flex-row justify-content-evenly align-items-center">
+           <div className="link_con  p-1 d-flex flex-row justify-content-evenly align-items-center">
             
             <div>
               <h1 className="logo">Jewel</h1>
@@ -47,20 +47,20 @@ function Nav() {
           <span> <a href="#">Home</a></span>
 
             
-<span> <a href="#">About</a></span>
+<span> <a href="#about">About</a></span>
 
 
-<span> <a href="#">Servies</a></span>
+<span> <a href="#service">Servies</a></span>
 
-<span> <a href="#">Skills</a></span>
+<span> <a href="#skill">Skills</a></span>
 
-<span> <a href="#">Projects</a></span>
+<span> <a href="#project">Projects</a></span>
 
           </div>
        
        
 </div>
-           
+
 
         <div className="d-block d-lg-none d-xl-none d-xxl-none">
           
@@ -84,7 +84,7 @@ function Nav() {
 <nav class="main-navigation">
   <ul>
     <li><a href="#0" data-text="Home">Home</a></li>
-    <li><a href="#0"  data-text="About">About</a></li>
+    <li><a href="#about"  data-text="About">About</a></li>
     <li><a href="#0"  data-text="Contact">Contact</a></li>
     <li><a href="#0"  data-text="Dance">Dance</a></li>
   </ul>

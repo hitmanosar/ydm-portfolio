@@ -1,6 +1,6 @@
 .App {
   
-  background-color: black;
+  background-color: #032839
 }
 
 
@@ -28,7 +28,7 @@ body {
   line-height: var(--line-height);
   /* overflow: hidden; */
   /* height: 1000px; */
- 
+ background-color: #032839;
 }
 
 .bg{
@@ -36,9 +36,9 @@ body {
   height: 100vh;
    object-fit: cover;
    
-   background: url('./photo/R.jpg');
+   background: url('./photo/new.jpg'); 
    /* filter: brightness(0.5); */
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
 
@@ -50,6 +50,44 @@ body {
 }
 
 
+.custom{
+  gap: 50px;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden{
+  display: none;
+}
 
 
 h1 {

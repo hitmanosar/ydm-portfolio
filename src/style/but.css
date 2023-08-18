@@ -1,7 +1,7 @@
 .cta {
     position: relative;
     margin: auto;
-    padding: 12px 20px;
+    padding: 10px 20px;
     transition: all 0.2s ease;
     border: none;
     background: none;
@@ -54,3 +54,66 @@
    .cta:active {
     transform: scale(0.95);
    }
+
+
+
+
+   .button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+    border: 1px solid #66fcf1;
+    background-color: #66fcf1;
+    overflow: hidden;
+  }
+  
+  .button, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+  
+  .button .button__text {
+    transform: translateX(5px);
+    color: black;
+    font-weight: 600;
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(105px);
+    height: 100%;
+    width: 39px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button .svg {
+    width: 20px;
+    fill: #fff;
+  }
+  
+  .button:hover {
+    background: black;
+  }
+  
+  .button:hover .button__text {
+    color: transparent;
+  }
+  
+  .button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .button:active .button__icon {
+    background-color: black;
+  }
+  
+  .button:active {
+    border: 1px solid black;
+  }

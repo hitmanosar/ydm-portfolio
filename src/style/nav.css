@@ -8,6 +8,9 @@
 
 }
 
+li{
+  list-style-type: none;
+}
 
 /* .logo{
     
@@ -61,7 +64,7 @@
   width: 50px;
   height: 3px;
   
-  transform: translate(-60px,10px);
+  transform: translate(-60px,15px);
   background-color: white;
 }
 
@@ -72,14 +75,14 @@
   width: 50px;
   height: 3px;
   
-  transform: translate(10px,10px);
+  transform: translate(10px,15px);
   background-color: white;
 }
 
 
 .abouts{
  width: 90% !important;
- height: auto;
+
 }
 
 /* General Styling */
