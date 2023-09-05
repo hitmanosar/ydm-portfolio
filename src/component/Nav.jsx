@@ -40,7 +40,7 @@ function Nav() {
            <div className="link_con  p-1 d-flex flex-row justify-content-evenly align-items-center">
             
             <div>
-              <h1 className="logo">Jewel</h1>
+              <h1 className="logo">Yadanar</h1>
             </div>
          
            <div className="links d-none d-lg-block d-xl-block d-xxl-block mt-2">
@@ -50,7 +50,7 @@ function Nav() {
 <span> <a href="#about">About</a></span>
 
 
-<span> <a href="#service">Servies</a></span>
+<span> <a href="#service">Services</a></span>
 
 <span> <a href="#skill">Skills</a></span>
 

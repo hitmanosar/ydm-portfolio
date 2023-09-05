@@ -4,7 +4,7 @@
     width: 100%;
     height: auto;
     padding: 10px;
-    
+    position: fixed;
 
 }
 
@@ -27,7 +27,18 @@ li{
 .logo{
     color: white;
     font-family: 'cute';
-    font-size: 50px !important;
+    font-size: 40px !important;
+}
+
+
+.cards{
+   width: 300px;
+   height: 500px;
+   margin: 0px auto;
+}
+
+.card-texts{
+  font-size: 15px;
 }
 
 
@@ -36,17 +47,19 @@ li{
     font-size: 20px;
     color: white;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: none ;
     padding: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
     transition: all 0.8s;
+  
 }
-
-
-
 
 .link_con span a:hover{
-    background-color: black;
+ color: rgb(102, 252, 241);
 }
+
 
 .bg_tran{
     background: rgba(0, 0, 0, 0.5);
@@ -154,4 +167,17 @@ li{
         font-size: 15px;
         margin: 0px 5px;
     }
+}
+
+
+
+@media screen and (max-width: 500px){
+  .connect{
+    font-size: 20px;
+  }
+
+
+  .ydm{
+    font-size: 13px;
+  }
 }

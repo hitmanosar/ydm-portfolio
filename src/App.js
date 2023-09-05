@@ -7,7 +7,7 @@ import './style/nav.css';
 import './style/but.css';
 import Foot from './component/Foot';
 import './style/footer.css';
-
+import './style/border.css';
 import Gotop from './component/Gotop';
 
 

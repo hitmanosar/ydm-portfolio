@@ -8,7 +8,9 @@ import { useCallback } from "react";
 import Particles from "react-particles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
-
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
+import Typed from 'react-typed';
 
 const Home = () => {
   const particlesInit = useCallback(async engine => {
@@ -24,7 +26,110 @@ const particlesLoaded = useCallback(async container => {
     await console.log(container);
 }, []);
 
+const handlego = ()=>{
+  const a = document.createElement('a');
+  a.href = '#contact';
 
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
+useEffect(() => {
+  const sr = ScrollReveal();
+  sr.reveal('.reveal', {
+    // delay: 150,
+  distance: '350px',
+  duration: 1000,
+  easing: 'ease-in',
+  opacity: 0,
+  origin: 'left',
+  reset: true,
+  viewFactor: 0.5
+  });
+
+
+  sr.reveal('.a1', {
+    // delay: 150,
+  distance: '350px',
+  duration: 1000,
+  easing: 'ease-in',
+  opacity: 0,
+  origin: 'left',
+  reset: true,
+  viewFactor: 0.5
+  });
+
+
+
+  // sr.reveal('.a2', {
+  //   // delay: 150,
+  // distance: '350px',
+  // duration: 1000,
+  // easing: 'ease-in',
+  // opacity: 0,
+  // origin: 'right',
+  // reset: true,
+  // viewFactor: 0.5
+  // });
+
+
+  sr.reveal('.a3', {
+    // delay: 150,
+  
+  duration: 1000,
+  easing: 'ease-in',
+  opacity: 0,
+  
+  reset: true,
+  viewFactor: 0.5
+  });
+
+  sr.reveal('.a4', {
+    // delay: 150,
+ 
+  duration: 1000,
+  easing: 'ease-in',
+  opacity: 0,
+  
+  reset: true,
+  viewFactor: 0.5
+  });
+
+
+  sr.reveal('.a5', {
+    // delay: 150,
+  
+  duration: 1000,
+  easing: 'ease-in',
+  opacity: 0,
+  
+  reset: true,
+  viewFactor: 0.5
+  });
+
+
+  sr.reveal('.a6', {
+    // delay: 150,
+    distance: '250px',
+  duration: 1000,
+  easing: 'ease-in',
+  opacity: 0,
+  origin: 'top',
+  reset: true,
+  viewFactor: 0.5
+  });
+  sr.reveal('.a7', {
+    // delay: 150,
+    distance: '250px',
+  duration: 1000,
+  easing: 'ease-in',
+  opacity: 0,
+  origin: 'bottom',
+  reset: true,
+  viewFactor: 0.5
+  })
+}, []);
 
   return (
 
@@ -43,19 +148,21 @@ const particlesLoaded = useCallback(async container => {
 <div className="container-fluid bg p-0" >
    
 
-  <div style={{position: 'absolute', top: 40+'%', left: 24+'%'}}> 
-    <p className='text-white fs-5 fw-bold'>Hello, my name is</p>
+  <div style={{position: 'absolute', top: 35+'%', left: 25+'%'}}> 
+    <p className='text-white fs-5 fw-bold '>Hello, my name is</p>
 
-   <h1 className='text-white fw-bold name'>Hem Bahadur Pun</h1> 
-   <p className='fs-3 text-white fw-bold'>And I'm a Designer</p>
+   <h1 className='text-white fw-bold name reveal'>Yadanar Moe</h1> 
+   <p className='fs-3 text-white fw-bold'>And I am a  <Typed
+                    strings={["Web Developer"]}
+                    typeSpeed={80}
+                    backSpeed={50}
+                    loop
+                  /></p>
 
 
-   <button class="cta">
-  <span>Hire Me</span>
-  {/* <svg viewBox="0 0 13 10" height="10px" width="15px">
-    <path d="M1,5 L11,5"></path>
-    <polyline points="8 1 12 5 8 9"></polyline>
-  </svg> */}
+   <button class="cta" onClick={handlego}>
+  <span>Contact</span>
+
 <i class="fa-solid fa-arrow-right fa-beat mx-2 text-white"></i>
 </button>
 
@@ -80,7 +187,7 @@ const particlesLoaded = useCallback(async container => {
 
 
   {/* <div className="container mt-4">
-  <img className='img img-fluid' src="https://th.bing.com/th/id/R.394e3fddc5e09c6dbc5eede8d334c588?rik=ZyJSXBWeSlr3AQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f_oFDQgW3nuwI%2fTUenVUDyEcI%2fAAAAAAAADL0%2f8v7lQuF8hv4%2fs1600%2fBig-rock-nature-computer-backgrounds.jpg&ehk=ZX%2fU2eMl9eI15W07XN6IYqLqw%2fGZbzJQEoVem2T%2fgxU%3d&risl=&pid=ImgRaw&r=0" alt="" srcset="" />
+  <img loading="lazy"className='img img-fluid' src="https://th.bing.com/th/id/R.394e3fddc5e09c6dbc5eede8d334c588?rik=ZyJSXBWeSlr3AQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f_oFDQgW3nuwI%2fTUenVUDyEcI%2fAAAAAAAADL0%2f8v7lQuF8hv4%2fs1600%2fBig-rock-nature-computer-backgrounds.jpg&ehk=ZX%2fU2eMl9eI15W07XN6IYqLqw%2fGZbzJQEoVem2T%2fgxU%3d&risl=&pid=ImgRaw&r=0" alt="" srcset="" />
   </div> */}
 
   </React.Fragment>

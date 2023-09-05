@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
+  overflow-x: hidden;
  background-color: #032839;
-  
+ cursor: url('./photo/Cursor-Arrow-PNG-Transparent-Image.png'),default;
  
 }
 
@@ -18,6 +18,8 @@ body {
 
 html{
   background-color: #032839;
+  scroll-behavior: smooth;
+  cursor: url('./photo/Cursor-Arrow-PNG-Transparent-Image.png'),default;
 }
 
 code {
