@@ -237,9 +237,11 @@
   }
   
   .button .button__text {
-    transform: translateX(5px);
+    transform: translateX(5px); 
     color: black;
     font-weight: 600;
+    font-size: 15px;
+    text-align: center;
   }
   
   .button .button__icon {

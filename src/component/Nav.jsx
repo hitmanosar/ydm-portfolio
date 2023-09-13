@@ -83,10 +83,17 @@ function Nav() {
 
 <nav class="main-navigation">
   <ul>
-    <li><a href="#0" data-text="Home">Home</a></li>
+    <li><a href="#" data-text="Home">Home</a></li>
     <li><a href="#about"  data-text="About">About</a></li>
-    <li><a href="#0"  data-text="Contact">Contact</a></li>
-    <li><a href="#0"  data-text="Dance">Dance</a></li>
+
+    <li><a href="#service"  data-text="Services">Services</a> </li>
+
+    <li><a href="#skill"  data-text="Skills">Skills</a> </li>
+
+    <li><a href="#project"  data-text="Projects">Projects</a> </li>
+
+
+  
   </ul>
 </nav>
         </div>

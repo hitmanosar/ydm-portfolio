@@ -15,6 +15,10 @@
   background-color: rgb(102, 252, 241) !important;
 }
 
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  font-size: 5px !important;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Merriweather:900&display=swap");
 :root {
   --color-primary: #002626;
@@ -182,7 +186,7 @@ h1 {
   z-index: -1;
 }
 .main-navigation ul {
-  font-size: 12vmin;
+  font-size: 10vmin;
   font-family: var(--font-heading);
   width: 100%;
 }
