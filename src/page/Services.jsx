@@ -37,7 +37,7 @@ const Services = () => {
           className="row d-flex flex-column flex-lg-row align-items-stretch mt-3 justify-content-center mx-auto"
           style={{ gap: 10 + "px" }}
         >
-          <div className="col-11 col-lg-3 mx-auto text-center a3">
+          <div className="col mx-auto text-center a3">
             <div className="h-100">
               {/* width: 18 + "rem" , */}
               <div
@@ -69,7 +69,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-11 col-lg-3 mx-auto  text-center a4">
+          <div className="col mx-auto  text-center a4">
             <div className="h-100">
               <div
                 class="card p-3 text-white  h-100"
@@ -98,7 +98,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-11 col-lg-3 mx-auto text-center a5">
+          <div className="col mx-auto text-center a5">
             <div className="h-100">
               <div
                 class="card p-3 text-white  h-100"
