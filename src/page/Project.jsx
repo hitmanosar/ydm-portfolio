@@ -220,7 +220,7 @@ const Project = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div class="cards" style={{ background: "rgb(34, 34, 34)" }}>
               <img loading="lazy" src={clock} class="card-img-top" alt="..." />
               <div class="card-body">
@@ -237,7 +237,7 @@ const Project = () => {
                 </button>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           <SwiperSlide>
             <div class="cards" style={{ background: "rgb(34, 34, 34)" }}>
