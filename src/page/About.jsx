@@ -26,8 +26,8 @@ const About = () => {
        <h1 className='text-center text-white'>About me</h1>
        <p className='text-center fw-bold fs-5 who' style={{color: '#66fcf1'}}>Who Am I</p>
        </div>
-       <div className="row d-flex flex-column flex-lg-row align-items-center justify-content-center custom mt-3">
-       <div className="col-12 col-lg-3  text-center text-lg-start">
+       <div className="row  custom mt-3 ">
+       <div className="col   text-center text-lg-start">
       <div className="img_container a1">
       <img loading="lazy"  src={logo} width={100+'%'} className='img img-fluid logo_img d1 box' alt="" srcset="" /> 
       <span class="top"></span>
@@ -37,8 +37,8 @@ const About = () => {
       </div>
        </div>
 
-       <div className="col-12 col-lg-5 text-white a2">
-       <h3 className='fw-bold '>I am  Yadanar Moe and I am Web Developer</h3>
+       <div className="col text-white a2">
+       <h3 className='fw-bold '>I am  Yadanar Moe and I am Software Engineer</h3>
 {/* And I am 17 years young boy with dynamic and enthusiastic person looking for the job Web Design and Development mostly specializing in front end development. A firm believer in my own abilities, I am also a team player who thrives in a challenging environment.I am a fresher with new and dynamics project ideas. Well-versed in numerous programming languages including HTML5,PHP,MySQL, JavaScript,Python and strong background in project management and customer relations. <br /> <br /> */}
        <p className='mt-3 '>
        With a background in data entry, I have transitioned into the world of software

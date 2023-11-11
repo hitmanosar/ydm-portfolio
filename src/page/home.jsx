@@ -153,7 +153,7 @@ useEffect(() => {
 
    <h1 className='text-white fw-bold name reveal'>Yadanar Moe</h1> 
    <p className='fs-3 text-white fw-bold'>And I am a  <Typed
-                    strings={["Web Developer"]}
+                    strings={["Software Engineer"]}
                     typeSpeed={80}
                     backSpeed={50}
                     loop
